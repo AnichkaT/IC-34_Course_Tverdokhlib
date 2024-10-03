@@ -3,40 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Document</title>
-
-    <style>
-        body{
-            background-color: lightblue;
-        }
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 5px;
-            text-align: center;
-        }
-
-    </style>
-
 
 </head>
 <body>
-    <header>
+    <header class="head">
         <nav>
             <ul>
-                <li>Інформація про сайт</li>
-                <li>Довідка користувачу</li>
-                <li>Контакти</li>
+                <li><a href="">Інформація про сайт</a></li>
+                <li><a href="">Довідка користувачу</a></li>
+                <li><a href="">Контакти</a></li>
             </ul>
         </nav>
     </header>
     <main>
 
-        <img src="https://vmpdu.edu.vn.ua/sites/default/files/styles/870x/public/library/1-10.jpg?itok=UC63jaXo&v=1584689877" alt="Розгорнута книга">
+        <img src="https://vmpdu.edu.vn.ua/sites/default/files/styles/870x/public/library/1-10.jpg?itok=UC63jaXo&v=1584689877" alt="Розгорнута книга" width="600" height="400">
 
-        <table style="width:100%">
+        <table class=" table">
             <caption>Твори, які вивчають у школі для 6 класу</caption>
             <tr>
               <th>Автор</th>
@@ -56,7 +41,7 @@
               </tr>
           </table><br/>
 
-          <br/><table style="width:100%">
+          <br/><table class=" table">
             <caption>Твори, які вивчають у школі для 8 класу</caption>
             <tr>
               <th>Автор</th>
@@ -76,7 +61,7 @@
               </tr>
           </table><br/>
 
-          <br/><table style="width:100%">
+          <br/><table class=" table">
             <caption>Твори, які вивчають у школі для 10 класу</caption>
             <tr>
               <th>Автор</th>
@@ -104,12 +89,12 @@
             Прізвище:<br>
             <input type='text' name='lastname' value='Прізвище'><br><br>
             <input type='submit' value='Надіслати'>
-          </form>
+        </form>
     </main>
-    <footer>
+    <footer class="link">
         <ul>
-            <li>Інстаграм</li>
-            <li>Фейсбук</li>
+            <li><a href="">Інстаграм</a></li>
+            <li><a href="">Фейсбук</a></li>
         </ul>
     </footer>
 
