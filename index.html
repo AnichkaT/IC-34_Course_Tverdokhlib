@@ -8,93 +8,44 @@
 
 </head>
 <body>
-    <header class="head">
-        <nav>
+    <header>
+        <nav class="head">
             <ul>
-                <li><a href="">Інформація про сайт</a></li>
-                <li><a href="">Довідка користувачу</a></li>
-                <li><a href="">Контакти</a></li>
+                <li class="head active"><a href="">Головна</a></li>
+                <li><a href="">Бібліотека книг</a></li>
+                <li><a onclick="window.location.href = 'logIn.html';">Зареєстреватися</a></li>
             </ul>
         </nav>
     </header>
     <main>
 
-        <img src="https://vmpdu.edu.vn.ua/sites/default/files/styles/870x/public/library/1-10.jpg?itok=UC63jaXo&v=1584689877" alt="Розгорнута книга" width="600" height="400">
+        <div class="info">
+          <div class="text">
+            <p style="text-align: center"> У сучасних реаліях укранське слово стало зброєю проти ворога.
+                Мова є головним маркером ідентичності.</br>
+                 Бути справжнім українцем - це 
+                знати історію свого народу, його культуру та мову. 
+            </p>
+            <p>
+                Тож говори українською і читай своє !
+            </p>
+            <p> Українська класика в школі</p>
+            <div class="buttons"> 
+              <button onclick="window.location.href = 'page1.html';">Література для 6 класу</button>
+              <button onclick="window.location.href = 'page2.html';">Література для 8 класу</button>
+              <button onclick="window.location.href = 'page3.html';">Література для 10 класу</button>
+            </div>
+          </div>
+          <img style="margin: 15px" src="https://vmpdu.edu.vn.ua/sites/default/files/styles/870x/public/library/1-10.jpg?itok=UC63jaXo&v=1584689877" alt="Розгорнута книга" width="450" height="330">
+        </div>
+        
 
-        <table class=" table">
-            <caption>Твори, які вивчають у школі для 6 класу</caption>
-            <tr>
-              <th>Автор</th>
-              <th>твір</th>
-            </tr>
-            <tr>
-              <td>Володимир РУТКІВСЬКИЙ</td>
-              <td>«Джури козака Швайки»</td>
-            </tr>
-            <tr>
-              <td>Всеволод НЕСТАЙКО</td>
-              <td>«Тореадори з Васюківки»</td>
-            </tr>
-            <tr>
-                <td>Ярослав СТЕЛЬМАХ</td>
-                <td>«Митькозавр з Юрківки, або Химера лісового озера»</td>
-              </tr>
-          </table><br/>
-
-          <br/><table class=" table">
-            <caption>Твори, які вивчають у школі для 8 класу</caption>
-            <tr>
-              <th>Автор</th>
-              <th>твір</th>
-            </tr>
-            <tr>
-              <td>Тарас Шевченко</td>
-              <td>«Думи мої, думи мої…»</td>
-            </tr>
-            <tr>
-              <td>Іван КАРПЕНКО-КАРИЙ</td>
-              <td>«Сто тисяч»</td>
-            </tr>
-            <tr>
-                <td>Володимир Дрозд</td>
-                <td>«Білий кінь Шептало»</td>
-              </tr>
-          </table><br/>
-
-          <br/><table class=" table">
-            <caption>Твори, які вивчають у школі для 10 класу</caption>
-            <tr>
-              <th>Автор</th>
-              <th>твір</th>
-            </tr>
-            <tr>
-              <td>Панас МИРНИЙ</td>
-              <td>«Хіба ревуть воли, як ясла повні?»</td>
-            </tr>
-            <tr>
-              <td>Іван КАРПЕНКО-КАРИЙ</td>
-              <td>«Мартин Боруля»</td>
-            </tr>
-            <tr>
-                <td>Ольга КОБИЛЯНСЬКА</td>
-                <td>«Земля»</td>
-              </tr>
-        </table>
-
-
-
-        <form>
-            Ім’я:<br>
-            <input type='text' name='firstname' value='Ім’я'><br>
-            Прізвище:<br>
-            <input type='text' name='lastname' value='Прізвище'><br><br>
-            <input type='submit' value='Надіслати'>
-        </form>
     </main>
     <footer class="link">
         <ul>
             <li><a href="">Інстаграм</a></li>
             <li><a href="">Фейсбук</a></li>
+            <li><a href="">Контакти</a></li>
         </ul>
     </footer>
 
