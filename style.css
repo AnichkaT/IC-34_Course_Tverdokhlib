@@ -110,11 +110,11 @@ input[type=text] {
 }
 
 form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -138,14 +138,7 @@ main {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  /* width: calc(100vw - 20mm); 
-  height: calc(100vh - 45mm);
-  background-color: rgb(196, 233, 246);
-  margin: 25px;
-  border-radius: 30px; */
-
 }
-
 
 
 .info{ 
@@ -155,7 +148,7 @@ main {
   background-color: lightblue;
   border-radius: 30px;
   text-align: end;
-  overflow-y: auto;
+  overflow-x: auto;
   margin: 35px;
   display: flex;
   flex-direction: block; 
@@ -163,7 +156,6 @@ main {
   align-items: center;
   text-size-adjust: 14px;
 }
-
 .text{
   display: flex;
   flex-direction: column; 
@@ -189,6 +181,46 @@ main {
   border-radius: 10px;
 }  
 
+@media (max-width: 600px) {
+  .info {
+    width: calc(100vw - 20mm); 
+    height: calc(100vh - 50mm); 
+    margin: 5mm;
+    background-color: lightblue;
+    border-radius: 30px;
+    text-align: end;
+    overflow-y: 0;
+    overflow-x: hidden;
+    margin: 35px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-size-adjust: 14px;
+    padding: 20mm; 
+    box-sizing: border-box;
+  }
+  .buttons{
+    display: flex;
+    align-items: center; 
+    flex-direction: column; 
+  }
+  .text {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+  }
+
+  .info img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+  }
+
+}
+
+
+
 
 .book{ 
   width: calc((100vw - 20mm)/4); 
@@ -204,13 +236,17 @@ main {
   align-items: center;
 }
 
+.book img {
+  width: 55% ; 
+  height: 70%; 
+  display: block;
+}
 
 .book.text{
   display: flex;
   flex-direction: column; 
   justify-content: left; 
   align-items: center;
-  
 }
 
 
@@ -218,7 +254,7 @@ button{
   background-color: #04AA6D;
   border: none;
   color: white;
-  padding: 10px 22px;
+  padding: 10px;
   margin: 10px ;
   text-align: center;
   text-decoration: none;
@@ -235,6 +271,43 @@ h1 {
 
 
 
+
+
+
+
+@media (max-width: 600px) {
+  .book{ 
+    width: calc((90vw - 20mm)); 
+    height: calc(95vh - 40mm);  
+    margin: 10%;
+    padding: 10%;
+    background-color: lightblue;
+    border-radius: 30px;
+    overflow: auto; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    overflow-y: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    
+  }
+
+  .book img {
+    width: 90%;
+    height: 70%; 
+    display: block; 
+  }
+  
+  .book.text{
+    display: flex;
+  flex-direction: column; 
+  justify-content: left; 
+  align-items: center;
+  }
+
+}
 
 
 

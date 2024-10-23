@@ -1,0 +1,75 @@
+html body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+    
+.YELLOWTOP, .YELLOWDOWN {
+    width: 100%; 
+    height: 20vh; 
+    background-color: yellow; 
+    border: 2px solid black;
+    box-sizing: border-box; 
+}
+
+.YELLOWDOWN { 
+    position: fixed;
+    bottom: 0; 
+}
+
+.YELLOWTOP {
+    position: fixed; 
+    top: 0; 
+}
+
+
+.BLUELEFT {
+    width: 20%; 
+    height: calc(100vh - 40vh);
+    background-color: blue; 
+    position: fixed; 
+    left: 0; 
+    top: 20vh;
+    border: 2px solid black;
+    box-sizing: border-box; 
+}
+
+
+.REDTOP {
+    width: calc(100vw - 20vw); 
+    height: 20vh; 
+    background-color: red; 
+    position: absolute; 
+    top: 20vh; 
+    right: 0; 
+    border: 2px solid black;
+    box-sizing: border-box; 
+}
+
+
+.BLUERIGHT {
+    width: calc((100vw - 20vw)/2); 
+    height: calc(100vh - 60vh);
+    background-color: blue; 
+    position: fixed; 
+    right: 0; 
+    top: 40vh;
+    border: 2px solid black;
+    box-sizing: border-box; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
